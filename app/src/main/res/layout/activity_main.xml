@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E080D0"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/curse1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/teardrop"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/teardrop"
+            android:text="@string/teardrop" />
+
+        <ImageButton
+            android:id="@+id/curse2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/hasi"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/hasi"
+            android:text="@string/hasi" />
+
+        <ImageButton
+            android:id="@+id/curse3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/pizza"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pizza"
+            android:text="@string/pizza" />
+
+        <ImageButton
+            android:id="@+id/curse4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/victory"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/victory"
+            android:text="@string/victory" />
+
+        <ImageButton
+            android:id="@+id/curse5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/clock"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/clock"
+            android:text="@string/clock" />
+
+        <ImageButton
+            android:id="@+id/curse6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/skull"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skull"
+            android:text="@string/skull" />
+
+        <ImageButton
+            android:id="@+id/curse7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/thumbdown"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/thumbdown"
+            android:text="@string/thumbdown" />
+
+        <ImageButton
+            android:id="@+id/curse8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/bird"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bird"
+            android:text="@string/bird" />
+
+        <ImageButton
+            android:id="@+id/curse9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/exclamation"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/exclamation"
+            android:text="@string/exclamation" />
+
+        <ImageButton
+            android:id="@+id/curse10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/dog"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog"
+            android:text="@string/dog" />
+
+        <ImageButton
+            android:id="@+id/curse11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/lick"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/lick"
+            android:text="@string/lick" />
+
+        <ImageButton
+            android:id="@+id/curse12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/fist"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fist"
+            android:text="@string/fist" />
+
+        <ImageButton
+            android:id="@+id/curse13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/smilie"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/smilie"
+            android:text="@string/smilie" />
+
+        <ImageButton
+            android:id="@+id/curse14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/threeexclamation"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/threeexclamation"
+            android:text="@string/threeexclamation" />
+
+        <ImageButton
+            android:id="@+id/curse15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/calm"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/calm"
+            android:text="@string/calm" />
+
+        <ImageButton
+            android:id="@+id/curse16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:background="@null"
+            android:contentDescription="@string/fart"
+            android:onClick="onClickImageButton"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fart"
+            android:text="@string/fart" />
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>

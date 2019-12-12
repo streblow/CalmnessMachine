@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CalmnessMachine</string>
+    <string name="action_about">About</string>
+    <string name="about_title">About</string>
+    <string name="teardrop" translatable="false">teardrop</string>
+    <string name="hasi" translatable="false">hasi</string>
+    <string name="pizza" translatable="false">pizza</string>
+    <string name="victory" translatable="false">victory</string>
+    <string name="clock" translatable="false">clock</string>
+    <string name="skull" translatable="false">skull</string>
+    <string name="thumbdown" translatable="false">thumbdown</string>
+    <string name="bird" translatable="false">bird</string>
+    <string name="exclamation" translatable="false">exclamation</string>
+    <string name="dog" translatable="false">dog</string>
+    <string name="lick" translatable="false">lick</string>
+    <string name="fist" translatable="false">fist</string>
+    <string name="smilie" translatable="false">smilie</string>
+    <string name="threeexclamation" translatable="false">threeexclamation</string>
+    <string name="calm" translatable="false">calm</string>
+    <string name="fart" translatable="false">fart</string>
+</resources>

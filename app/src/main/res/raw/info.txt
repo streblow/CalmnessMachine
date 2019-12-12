@@ -1,0 +1,6 @@
+<h2>CalmnessMachine</h2>
+<b>Version 1.0 (Build 1)</b><br>
+&#169; 2019-12-11 Lars Streblow<br>
+<br>
+streblow.gmxhome.de<br>
+lars.streblow@gmx.de
