@@ -1,6 +1,6 @@
 <h2>Gelassenheitsmaschine</h2>
-<b>Version 1.1 (Build 2)</b><br>
-&#169; 2019-12-29 Lars Streblow<br>
+<b>Version 1.2 (Build 3)</b><br>
+&#169; 2020-03-04 Lars Streblow<br>
 <br>
 streblow.gmxhome.de<br>
 lars.streblow@gmx.de
